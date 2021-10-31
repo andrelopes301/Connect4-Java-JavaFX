@@ -1,0 +1,91 @@
+#tabuleiro {
+
+    -fx-background-radius: 8px;
+    -fx-background-color:  rgba(23, 136, 212, 0.91);
+}
+
+
+#h1 {
+    -fx-fill: white;
+    -fx-text-alignment: center;
+    -fx-font-family: 'Helvetica Neue', sans-serif;
+    -fx-font-style: italic;
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+
+}
+
+#t{
+
+    -fx-fill: white;
+    -fx-text-alignment: center;
+    -fx-font-family: 'Helvetica Neue', sans-serif;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+
+}
+
+
+
+
+.button {
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-background-color: rgba(23, 136, 212, 0.91);
+    -fx-text-fill: white;
+    -fx-padding: 10 20 10 20;
+    -fx-background-radius: 14px;
+    -fx-pref-width: 200px;
+}
+.button:hover{
+
+    -fx-background-color: rgba(101, 173, 224, 0.91);
+    -fx-text-fill: white;
+
+
+}
+
+#botaoColuna {
+
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-size: 16px;
+    -fx-font-weight: Bold;
+    -fx-background-color: rgba(23, 136, 212, 0.91);
+    -fx-text-fill: white;
+    -fx-padding: 3 4 3 4;
+    -fx-pref-width: 44px;
+    -fx-background-radius: 0px;
+
+}
+
+#botaoColuna:hover{
+
+    -fx-background-color: rgba(101, 173, 224, 0.91);
+    -fx-text-fill: white;
+
+}
+
+#botaoPopUp {
+
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-size: 16px;
+    -fx-font-weight: Bold;
+    -fx-background-color: rgba(23, 136, 212, 0.91);
+    -fx-text-fill: white;
+    -fx-padding: 3 4 3 4;
+    -fx-pref-width: 10px;
+    -fx-background-radius: 0px;
+
+}
+
+
+
+
+#margem {
+
+    -fx-border-insets: 5px;
+    -fx-background-insets: 10px;
+
+}
+
