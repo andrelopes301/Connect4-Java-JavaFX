@@ -1,6 +1,6 @@
 # Connect4 - Java/JavaFX
  
-## Trabalho Prático Programação Avançada 2020/2021 
+## Project made for 'Programação Avançada' at ISEC 2020/2021 
 
 ### Required
 - Java 16
